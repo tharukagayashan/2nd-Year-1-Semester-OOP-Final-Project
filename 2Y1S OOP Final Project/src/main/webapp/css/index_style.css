@@ -1,0 +1,47 @@
+@charset "ISO-8859-1";
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background:url("../img/background.jpeg");
+}
+
+table{
+	width:500px;
+	height:300px;
+	margin:auto;
+	margin-top:100px;
+}
+
+table tr td a button{
+	width:250px;
+	height:150px;
+	background-color:#1D3557;
+	color:white;
+	font-size:22px;
+	font-weight:bold;
+	border:10px solid lightBlue;
+	border-radius:10px;
+	transition-duration:0.5s;
+	cursor:pointer;
+}
+
+table tr td a button:hover{
+	border:10px solid #85e62c;
+	background-color:#5691c8;
+}
+
+#td1{
+	padding-right:300px;
+}
+
+#td2{
+	padding-left:300px;
+}
+
+.td1{
+	padding-bottom:20px;
+}

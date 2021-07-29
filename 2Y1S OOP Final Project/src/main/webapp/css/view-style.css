@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body{
+	background:url("../img/background.jpeg");
+}
+
+#lbl{
+	text-align:center;
+	margin-top:50px;
+	color:white;
+}
+
+table{
+	background-color:white;
+	margin:auto;
+	margin-top:20px;
+	width:1300px;
+	padding:5px;
+	font-weight:bold;
+	border:2px solid black;	
+	text-align:center;
+}
+
+table tr th{
+	padding:10px;
+}
+
+table tr td{
+	padding:5px;
+}
+
+#btn1{
+	width:48%;
+	background-color:#39FF14;
+	padding:2px;
+	border:2px solid black;
+	color:white;
+}
+
+#btn2{
+	width:48%;
+	background-color:red;
+	padding:2px;
+	border:2px solid black;
+	color:white;
+}
