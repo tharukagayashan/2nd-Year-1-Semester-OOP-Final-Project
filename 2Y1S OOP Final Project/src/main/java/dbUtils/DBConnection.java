@@ -9,8 +9,8 @@ public class DBConnection {
 		
 		Connection con = null;
 		String db_url = "jdbc:mysql://localhost:3306/schooldb";
-        String username = "root";
-        String password = "";
+        	String username = "root";
+        	String password = "";
 		
 		try {
 			
